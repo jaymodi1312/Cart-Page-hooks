@@ -1,0 +1,12 @@
+//How to Change Return to Shop Link in Woocommerce
+
+function custom_empty_cart_redirect_url(){
+ 
+return 'http://yoursite.com/page-example/';
+ 
+}
+
+add_filter( 'woocommerce_return_to_shop_redirect', ‘custom_empty_cart_redirect_url' );
+
+
+===========================================================================================================================================================================
